@@ -3,9 +3,11 @@
     <head>
         <meta charset='UTF-8'>
         <title>Studzin-sky's Portfolio</title>
+        <link rel='stylesheet' href='reset.css'>
         <link rel='stylesheet' href='style.css'>
     </head>
     <body>
+        <section id='navbar'>
         <nav id='navbar'>
             <ul>
                 <li><a href='#welcome-section'>About</a></li>
@@ -13,6 +15,7 @@
                 <li><a href=''>Contact</a></li>
             </ul>
         </nav>
+        </section>
         <section id='welcome-section'>
             <h1> My name is Patryk </h1>
             <p>But you can call me studzin-sky</p>
@@ -20,21 +23,23 @@
         </section>
         <section id='projects'>
             <h2>There are my previous projects:</h2>
-            <figure id='project-tile'>
+            <div class='project-grid'>
+            <figure class='project-tile'>
                 <a href='https://codepen.io/studzin-sky/pen/NWRrRvQ' target='_blank'><img src='technical.png' alt='screenshot of a page'></a>
                 <figcaption>Technical Page</figcaption>
             </figure>
-            <figure id='project-tile'>
+            <figure class='project-tile'>
                 <a href='https://codepen.io/studzin-sky/pen/ZEpOBEy' target='_blank'><img src='alfa.png' alt='screenshot of a page'></a>
                 <figcaption>Tribute Page</figcaption>
             </figure>
-            <figure id='project-tile'>
+            <figure class='project-tile'>
                 <a href='https://codepen.io/studzin-sky/pen/NWRrbKx' target='_blank'><img src='product.png' alt='screenshot of a page'></a>
                 <figcaption>Product Page</figcaption>
             </figure>
-            <figure id='project-tile'>
+            <figure class='project-tile'>
                 <a href='https://codepen.io/studzin-sky/pen/VwKjKJV' target='_blank'><img src='survey.png' alt='screenshot of a page'></a>
                 <figcaption>Survey Page</figcaption>
+            </div>
             </figure>
         </section>
         <section id='contact'>
