@@ -1,0 +1,1 @@
+This will be my project of a portfolio page - the last assignment from freeCodeCamp.
